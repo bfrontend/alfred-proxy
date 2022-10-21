@@ -1,0 +1,32 @@
+{
+  "name": "alfred-proxy",
+  "version": "0.0.1",
+  "description": "alfred-proxy 自动切换代理",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node ./src/index",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "gulp",
+    "alfred",
+    "workflow"
+  ],
+  "author": "webxmsj",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-dir": "^1.0.2",
+    "gulp-uglify": "^3.0.2",
+    "jszip": "^3.10.1",
+    "through2": "^4.0.2",
+    "vinyl": "^3.0.0",
+    "webpack": "^5.74.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "yamljs": "^0.3.0"
+  }
+}
